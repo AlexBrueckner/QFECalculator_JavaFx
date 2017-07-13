@@ -1,0 +1,7 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root{
+    -fx-font-family: 'bold';
+    -fx-font-size: 10pt;
+    -fx-base:  rgba(74,90,255,0.8);
+    -fx-background: rgb(255, 255, 255);
+}

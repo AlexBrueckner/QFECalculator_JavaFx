@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: F99th-Fencer (Alexander Brueckner)
+Name: QFE_Calculator
+Specification-Title: QFE Calculator
+Specification-Version: 0.1
+Specification-Vendor: Fighting 99th
+Implementation-Title: QFE_Calculator 
+Implementation-Version: 0.1
+Implementation-Vendor: F99th-Fencer

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+        <Label alignment="CENTER" layoutX="73.0" layoutY="359.0" style="&#10;" text="Designed for Simulator use only! Do not use for real aircraft" textAlignment="CENTER" textFill="RED" wrapText="false">
+          <font>
+            <Font size="18.0" />
+          </font>
+        </Label>
+            <CheckBox fx:id="checkboxFeet" layoutX="323.0" layoutY="112.0" mnemonicParsing="false" text="Feet" />
+            <CheckBox fx:id="checkboxMeters" layoutX="323.0" layoutY="75.0" mnemonicParsing="false" text="Meters" />
+            <CheckBox fx:id="checkboxCelsius" layoutX="323.0" layoutY="173.0" mnemonicParsing="false" text="Celsius" />
+            <CheckBox fx:id="checkboxFahrenheit" layoutX="323.0" layoutY="210.0" mnemonicParsing="false" text="Fahrenheit" />
+            <TextField fx:id="textfieldRunwayElevation" layoutX="134.0" layoutY="71.0" />
+            <TextField fx:id="textfieldTargetElevation" layoutX="134.0" layoutY="108.0" />
+            <TextField fx:id="textfieldTemperature" layoutX="135.0" layoutY="169.0" />
+            <TextField fx:id="textfieldRunwayQfe" layoutX="135.0" layoutY="206.0" />
+            <Label layoutX="24.0" layoutY="75.0" text="Runway elevation" />
+            <Label layoutX="24.0" layoutY="112.0" text="Target Elevation" />
+            <Label layoutX="24.0" layoutY="173.0" text="Temperature" />
+            <Label layoutX="25.0" layoutY="210.0" text="Runway QFE" />
+            <Label layoutX="321.0" layoutY="57.0" text="Elevation Unit" />
+            <Label layoutX="323.0" layoutY="152.0" text="Temperature Unit" />
+            <ImageView fx:id="f99thLogo" fitHeight="200.0" fitWidth="200.0" layoutX="453.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@F99th_logo_300_px.png" />
+               </image>
+               <effect>
+                  <Bloom threshold="0.72" />
+               </effect>
+            </ImageView>
+            <Label layoutX="9.0" layoutY="4.0" text="QFE Calculator FX - V 0.1">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="333.0" prefHeight="26.0" prefWidth="657.0" text="Created by Fencer of the Fighting 99th, Logo by Pyromaniac4002 of the Fighting 99th">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button fx:id="buttonCalc" layoutX="304.0" layoutY="273.0" mnemonicParsing="false" text="Calculate Target QFE" />
+            <TextField fx:id="textfieldTargetQfe" layoutX="135.0" layoutY="273.0" />
+            <Label layoutX="24.0" layoutY="277.0" text="Target QFE" />
+            <Label layoutX="24.0" layoutY="247.0" prefHeight="17.0" prefWidth="425.0" text="Remember to use a decimal instead of a coma! E.g. 923.4" />
+            <Label layoutX="448.0" layoutY="32.0" text="Click the logo to visit our homepage!" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
